@@ -32,9 +32,7 @@ xkb_symbols "basic" {
 
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
-    key <AC03> {	[	  d,	D		]	};
     key <AC03> { type = "CAPS_NAVIGATION", [d, D, Next],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<NEXT>)] };
-
     key <AC04> {	[	  f,	F		]	};
     key <AC05> {	[	  g,	G		]	};
     key <AC06> { type = "CAPS_NAVIGATION", [h, H, Left],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<LEFT>)] };

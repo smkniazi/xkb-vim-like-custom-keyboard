@@ -28,12 +28,12 @@ default xkb_types "basic" {
     };
 
     type "CAPS_NAVIGATION" {
-       modifiers = Shift+Mod5;
-       map[Shift] = Level2;
-       map[Mod5] = Level3;
-       map[Mod5+Shift] = level3;
-       level_name[Level1] = "Base";
-       level_name[Level2] = "Shift";
-       level_name[Level3] = "Caps";
+    modifiers = Shift+Mod5;
+    map[Shift] = Level2;
+    map[Mod5] = Level3;
+    map[Mod5+Shift] = level3;
+    level_name[Level1] = "Base";
+    level_name[Level2] = "Shift";
+    level_name[Level3] = "Caps";
    };
 };
