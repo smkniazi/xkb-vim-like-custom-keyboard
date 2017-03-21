@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#make backup
+
+
+#replace files
+cp xkb/symbols/pc /usr/share/X11/xkb/symbols/pc 
+cp xkb/symbols/us /usr/share/X11/xkb/symbols/us
+cp xkb/types/basic /usr/share/X11/xkb/types/basic
+
+
