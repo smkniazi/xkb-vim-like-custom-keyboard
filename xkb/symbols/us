@@ -27,8 +27,8 @@ xkb_symbols "basic" {
     key <AD08> { type = "CAPS_NAVIGATION", [i, I, Home],    actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<HOME>)] };
     key <AD09> { type = "CAPS_NAVIGATION", [o, O, End],     actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<END>)] };
     key <AD10> { type = "CAPS_NAVIGATION", [p, P, Ins],  actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<INS>)] };
-    key <AD11> {	[ bracketleft,	braceleft	]	};
-    key <AD12> {	[ bracketright,	braceright	]	};
+    key <AD11> {	[ bracketleft,	braceleft, a	]	};
+    key <AD12> {	[ bracketright,	braceright, b	]	};
 
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
