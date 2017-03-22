@@ -19,14 +19,14 @@ xkb_symbols "basic" {
 
     key <AD01> {	[	  q,	Q 		]	};
     key <AD02> {	[	  w,	W		]	};
-    key <AD03> { type = "CAPS_NAVIGATION", [e, E, Escape],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<ESCAPE>)] };
+    key <AD03> {	[	  e,	E		]	};
     key <AD04> {	[	  r,	R		]	};
     key <AD05> {	[	  t,	T		]	};
     key <AD06> {	[	  y,	Y		]	};
     key <AD07> { type = "CAPS_NAVIGATION", [u, U, Prior],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<PGUP>)] };
     key <AD08> { type = "CAPS_NAVIGATION", [i, I, Home],    actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<HOME>)] };
     key <AD09> { type = "CAPS_NAVIGATION", [o, O, End],     actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<END>)] };
-    key <AD10> { type = "CAPS_NAVIGATION", [p, P, Insert],  actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<INSERT>)] };
+    key <AD10> {	[	  p,	P		]	};
     key <AD11> {	[ bracketleft,	braceleft	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
 
