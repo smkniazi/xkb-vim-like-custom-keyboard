@@ -26,7 +26,7 @@ xkb_symbols "basic" {
     key <AD07> { type = "CAPS_NAVIGATION", [u, U, Prior],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<PGUP>)] };
     key <AD08> { type = "CAPS_NAVIGATION", [i, I, Home],    actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<HOME>)] };
     key <AD09> { type = "CAPS_NAVIGATION", [o, O, End],     actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<END>)] };
-    key <AD10> { type = "CAPS_NAVIGATION", [p, P, Delete],  actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<DELETE>)] };
+    key <AD10> { type = "CAPS_NAVIGATION", [p, P, Delete],  actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<DEL>)] };
     key <AD11> {	[ bracketleft,	braceleft, aring,      Aring	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
 
