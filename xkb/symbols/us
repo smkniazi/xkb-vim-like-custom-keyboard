@@ -39,8 +39,8 @@ xkb_symbols "basic" {
     key <AC07> { type = "CAPS_NAVIGATION", [j, J, Down],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<DOWN>)] };
     key <AC08> { type = "CAPS_NAVIGATION", [k, K, Up],     actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<UP>)] };
     key <AC09> { type = "CAPS_NAVIGATION", [l, L, Right],  actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<RGHT>)] };
-    key <AC10> {	[ semicolon,	colon		]	};
-    key <AC11> {	[ apostrophe,	quotedbl	]	};
+    key <AC10> {	[ semicolon,	colon, adiaeresis,	Adiaeresis		]	};
+    key <AC11> {	[ apostrophe,	quotedbl, odiaeresis, Odiaeresis	]	};
 
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  x,	X		]	};
