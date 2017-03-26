@@ -28,6 +28,7 @@ default xkb_types "basic" {
     };
 
     type "CAPS_NAVIGATION" {
+    repeat=yes
     modifiers = Shift+Mod5;
     map[Shift] = Level2;
     map[Mod5] = Level3;
