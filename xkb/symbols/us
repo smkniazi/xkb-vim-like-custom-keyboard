@@ -48,7 +48,7 @@ xkb_symbols "basic" {
     key <AB04> {	[	  v,	V		]	};
     key <AB05> {	[	  b,	B		]	};
     key <AB06> {	[	  n,	N		]	};
-    key <AB07> {	[	  m,	M		]	};
+    key <AB07> { type = "CAPS_NAVIGATION", [m, M, Menu],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<COMP>)] };
     key <AB08> {	[     comma,	less		]	};
     key <AB09> {	[    period,	greater		]	};
     key <AB10> {	[     slash,	question	]	};
