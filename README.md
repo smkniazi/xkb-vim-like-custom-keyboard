@@ -38,5 +38,5 @@
 
 
 
-![alt text](./layout.png "Keyboard Layout")
+![Keyboard Layout](./layout.png "Keyboard Layout")
 
