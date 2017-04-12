@@ -1,5 +1,9 @@
 # Vim Inspired Custom Keyboard Layout
 
+Compare the `xkb` and `xkb.bak` to see the changes. I am too lazy to make a patch. Test your changes in a VM first. You will brick the keyboard if you fuck up the config files. 
+
+
+
 `Caps + h`	--> 	`Left`
 
 `Caps + j`	--> 	`Down`
