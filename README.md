@@ -36,3 +36,7 @@
 
 `Caps + "`	--> 	`Ä`
 
+
+
+![Keyboard Layout](layout.png?raw=true "Keyboard Layout")
+
