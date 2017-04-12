@@ -1,4 +1,4 @@
-default  partial alphanumeric_keys modifier_keys
+
 xkb_symbols "basic" {
 
     name[Group1]= "English (US)";
@@ -20,7 +20,7 @@ xkb_symbols "basic" {
     key <AD01> {	[	  q,	Q 		]	};
     key <AD02> {	[	  w,	W		]	};
     key <AD03> { type = "CAPS_NAVIGATION", [e, E, Esc],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<ESC>)] };
-    key <AD04> {	[	  r,	R		]	};
+    key <AD04> { type = "CAPS_NAVIGATION", [r, R, F05],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<FK05>)] };
     key <AD05> {	[	  t,	T		]	};
     key <AD06> {	[	  y,	Y		]	};
     key <AD07> { type = "CAPS_NAVIGATION", [u, U, Prior],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<PGUP>)] };
@@ -33,7 +33,7 @@ xkb_symbols "basic" {
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
     key <AC03> { type = "CAPS_NAVIGATION", [d, D, Next],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<NEXT>)] };
-    key <AC04> {	[	  f,	F		]	};
+    key <AC04> { type = "CAPS_NAVIGATION", [f, F, F11],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<FK11>)] };
     key <AC05> {	[	  g,	G		]	};
     key <AC06> { type = "CAPS_NAVIGATION", [h, H, Left],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<LEFT>)] };
     key <AC07> { type = "CAPS_NAVIGATION", [j, J, Down],   actions[Group1]=[NoAction(), NoAction(), RedirectKey(key=<DOWN>)] };
