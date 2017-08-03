@@ -19,7 +19,7 @@ xkb_symbols "basic" {
 
     key <AD01> {	[	  q,	Q 		]	};
     key <AD02> {	[	  w,	W		]	};
-    key <AD03> {	[	  e,	E,	Esc	]	};
+    key <AD03> {	[	  e,	E,	Escape	]	};
     key <AD04> {	[	  r,	R,	F05	]	};
     key <AD05> {	[	  t,	T		]	};
     key <AD06> {	[	  y,	Y		]	};
