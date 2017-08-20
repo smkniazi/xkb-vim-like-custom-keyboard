@@ -36,7 +36,7 @@ xkb_symbols "basic" {
     key <AC04> {	[	  f,	F		]	};
     key <AC05> {	[	  g,	G		]	};
     key <AC06> {	[	  h,	H		]	};
-    key <AC07> {	[	  j,	J		]	};
+    key <AC07> { type[group1]="CapsShiftSpecial", symbols[group1]=[ j, J, Down, Down ]};
     key <AC08> {	[	  k,	K		]	};
     key <AC09> {	[	  l,	L		]	};
     key <AC10> {	[ semicolon,	colon		]	};

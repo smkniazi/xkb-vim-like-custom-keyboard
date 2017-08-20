@@ -27,4 +27,20 @@ default xkb_types "basic" {
 	level_name[Level2] = "Caps";
     };
 
+	type "CapsShiftSpecial" {
+    modifiers= Shift+Hyper;
+
+    map[Shift]= Level2;
+    preserve[Shift]= Shift;
+
+    map[Hyper]= Level3;
+
+    map[Shift+Hyper]= Level4;
+    preserve[Shift+Hyper]= Shift;
+
+    level_name[Level1]= "Base";
+    level_name[Level2]= "Shift";
+    level_name[Level3]= "Hyper";
+    level_name[Level4]= "Shift Hyper";
+	};
 };
