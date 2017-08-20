@@ -1,4 +1,4 @@
-
+default  partial alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
     name[Group1]= "English (US)";
@@ -19,28 +19,28 @@ xkb_symbols "basic" {
 
     key <AD01> {	[	  q,	Q 		]	};
     key <AD02> {	[	  w,	W		]	};
-    key <AD03> {	[	  e,	E,	Escape	]	};
-    key <AD04> {	[	  r,	R,	F05	]	};
+    key <AD03> {	[	  e,	E		]	};
+    key <AD04> {	[	  r,	R		]	};
     key <AD05> {	[	  t,	T		]	};
     key <AD06> {	[	  y,	Y		]	};
-    key <AD07> {	[     u,	U, Prior]	};
-    key <AD08> {	[	  i,	I, Home	]	};
-    key <AD09> {	[	  o,	O, End 	]	};
-    key <AD10> {	[	  p,	P, Delete]	};
-    key <AD11> {	[ bracketleft,	braceleft, aring,      Aring	]	};
+    key <AD07> {	[	  u,	U		]	};
+    key <AD08> {	[	  i,	I		]	};
+    key <AD09> {	[	  o,	O		]	};
+    key <AD10> {	[	  p,	P		]	};
+    key <AD11> {	[ bracketleft,	braceleft	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
 
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
-    key <AC03> {	[	  d,	D,	Next]	};
-    key <AC04> {	[ 	  f,	F, 	F11	]	};
+    key <AC03> {	[	  d,	D		]	};
+    key <AC04> {	[	  f,	F		]	};
     key <AC05> {	[	  g,	G		]	};
-    key <AC06> {	[	  h,	H,	Left]   };
-    key <AC07> {	[	  j,	J,	Down]   };
-    key <AC08> {	[	  k,	K,	Up	]   };
-    key <AC09> {	[	  l,	L,	Right]	};
-    key <AC10> {	[ semicolon,	colon,	odiaeresis,	Odiaeresis		]	};
-    key <AC11> {	[ apostrophe,	quotedbl,	adiaeresis,	Adiaeresis]	};
+    key <AC06> {	[	  h,	H		]	};
+    key <AC07> {	[	  j,	J		]	};
+    key <AC08> {	[	  k,	K		]	};
+    key <AC09> {	[	  l,	L		]	};
+    key <AC10> {	[ semicolon,	colon		]	};
+    key <AC11> {	[ apostrophe,	quotedbl	]	};
 
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  x,	X		]	};
@@ -48,7 +48,7 @@ xkb_symbols "basic" {
     key <AB04> {	[	  v,	V		]	};
     key <AB05> {	[	  b,	B		]	};
     key <AB06> {	[	  n,	N		]	};
-    key <AB07> {	[	  m,	M, Menu	]	};
+    key <AB07> {	[	  m,	M		]	};
     key <AB08> {	[     comma,	less		]	};
     key <AB09> {	[    period,	greater		]	};
     key <AB10> {	[     slash,	question	]	};
