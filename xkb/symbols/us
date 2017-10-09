@@ -22,23 +22,23 @@ xkb_symbols "basic" {
     key <AD03> {	[	  e,	E,	Escape	]	};
     key <AD04> {	[	  r,	R,	F5	]	};
     key <AD05> {	[	  t,	T		]	};
-    key <AD06> {	[	  y,	Y		]	};
-    key <AD07> {	[     u,	U, Prior]	};
-    key <AD08> {	[	  i,	I, Home	]	};
-    key <AD09> {	[	  o,	O, End 	]	};
-    key <AD10> {	[	  p,	P, Delete]	};
+    key <AD06> {	[	  y,	Y, NoSymbol, KP_Add		]	};
+    key <AD07> {	[     u,	U, Prior,	KP_5			]	};
+    key <AD08> {	[	  i,	I, Home,	KP_Divide		]	};
+    key <AD09> {	[	  o,	O, End, 	KP_Multiply 	]	};
+    key <AD10> {	[	  p,	P, Delete,	KP_Subtract		]	};
     key <AD11> {	[ bracketleft,	braceleft, aring,      Aring	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
 
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
-    key <AC03> {	[	  d,	D,	Next]	};
-    key <AC04> {	[ 	  f,	F, 	F11	]	};
+    key <AC03> {	[	  d,	D,	Next, KP_0]	};
+    key <AC04> {	[ 	  f,	F, 	F11,  KP_Decimal	]	};
     key <AC05> {	[	  g,	G		]	};
-    key <AC06> {	[	  h,	H,	Left]   };
-    key <AC07> {	[	  j,	J,	Down]   };
-    key <AC08> {	[	  k,	K,	Up	]   };
-    key <AC09> {	[	  l,	L,	Right]	};
+    key <AC06> {	[	  h,	H,	Left,	KP_4]   };
+    key <AC07> {	[	  j,	J,	Down,	KP_2]   };
+    key <AC08> {	[	  k,	K,	Up,		KP_8]   };
+    key <AC09> {	[	  l,	L,	Right, 	KP_6]	};
     key <AC10> {	[ semicolon,	colon,	odiaeresis,	Odiaeresis		]	};
     key <AC11> {	[ apostrophe,	quotedbl,	adiaeresis,	Adiaeresis]	};
 
