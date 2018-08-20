@@ -23,22 +23,22 @@ xkb_symbols "basic" {
     key <AD04> {	[	  r,	R,	F5	]	};
     key <AD05> {	[	  t,	T		]	};
     key <AD06> {	[	  y,	Y		]	};
-    key <AD07> {	[     u,	U, Prior]	};
-    key <AD08> {	[	  i,	I, Home	]	};
-    key <AD09> {	[	  o,	O, End 	]	};
-    key <AD10> {	[	  p,	P, Delete]	};
+    key <AD07> { type="THREE_LEVEL", [    u,	U, Prior]	};
+    key <AD08> { type="THREE_LEVEL", [	  i,	I, Home	]	};
+    key <AD09> { type="THREE_LEVEL", [	  o,	O, End 	]	};
+    key <AD10> { type="THREE_LEVEL", [	  p,	P, Delete]	};
     key <AD11> {	[ bracketleft,	braceleft, aring,      Aring	]	};
     key <AD12> {	[ bracketright,	braceright	]	};
 
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
-    key <AC03> {	[	  d,	D,	Next]	};
+    key <AC03> { type="THREE_LEVEL", [	  d,	D,	Next]	};
     key <AC04> {	[ 	  f,	F, 	F11	]	};
     key <AC05> {	[	  g,	G		]	};
-    key <AC06> {	[	  h,	H,	Left]   };
-    key <AC07> {	[	  j,	J,	Down]   };
-    key <AC08> {	[	  k,	K,	Up	]   };
-    key <AC09> {	[	  l,	L,	Right]	};
+    key <AC06> { type="THREE_LEVEL", [	  h,	H,	Left]   };
+    key <AC07> { type="THREE_LEVEL", [	  j,	J,	Down]   };
+    key <AC08> { type="THREE_LEVEL", [	  k,	K,	Up	]   };
+    key <AC09> { type="THREE_LEVEL", [	  l,	L,	Right]	};
     key <AC10> {	[ semicolon,	colon,	odiaeresis,	Odiaeresis		]	};
     key <AC11> {	[ apostrophe,	quotedbl,	adiaeresis,	Adiaeresis]	};
 
