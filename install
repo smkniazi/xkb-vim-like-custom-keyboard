@@ -5,11 +5,9 @@ cp -n /usr/share/X11/xkb/symbols/pc  /usr/share/X11/xkb/symbols/pc.bak
 cp -n /usr/share/X11/xkb/symbols/us  /usr/share/X11/xkb/symbols/us.bak
 cp -n /usr/share/X11/xkb/types/basic /usr/share/X11/xkb/types/basic.bak
 cp -n /usr/share/X11/xkb/keycodes/evdev /usr/share/X11/xkb/keycodes/evdev.bak
-cp -n /usr/share/X11/xkb/compat/mousekeys /usr/share/X11/xkb/compat/mousekeys.bak
 
 #replace files
 cp xkb/symbols/pc /usr/share/X11/xkb/symbols/pc 
 cp xkb/symbols/us /usr/share/X11/xkb/symbols/us
 cp xkb/types/basic /usr/share/X11/xkb/types/basic
 cp xkb/keycodes/evdev /usr/share/X11/xkb/keycodes/evdev
-cp xkb/compat/mousekeys /usr/share/X11/xkb/compat/mousekeys

@@ -109,8 +109,7 @@ default xkb_keycodes "evdev" {
 	<DOWN> = 116;
 	<RGHT> = 114;
 
-	//<NMLK> = 77;
-	<NMLK> = 133;
+	<NMLK> = 77;
 	<KPDV> = 106;
 	<KPMU> = 63;
 	<KPSU> = 82;
