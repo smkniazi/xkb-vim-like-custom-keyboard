@@ -47,11 +47,11 @@ xkb_symbols "basic" {
     key <AB03> {	[	  c,	C		]	};
     key <AB04> {	[	  v,	V		]	};
     key <AB05> {	[	  b,	B		]	};
-    key <AB06> {	[	  n,	N		]	};
+    key <AB06> { type="THREE_LEVEL", [	  n,	N,	F3]	};
     key <AB07> {	[	  m,	M, Menu	]	};
     key <AB08> {	[     comma,	less		]	};
     key <AB09> {	[    period,	greater		]	};
-    key <AB10> {	[     slash,	question	]	};
+    key <AB10> { type="THREE_LEVEL", [	  slash,	question,	F3]	};
 
     key <BKSL> {	[ backslash,         bar	]	};
 };
